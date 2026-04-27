@@ -1,0 +1,16 @@
+{
+  "app_name": "example-app",
+  "version": "1.0.0",
+  "debug": true,
+  "api_key": "sk-examplekeydonotuse1234567890abcdef",
+  "database": {
+    "host": "0.0.0.0",
+    "port": 5432,
+    "password": "examplepassword123",
+    "ssl": false
+  },
+  "auth": {
+    "token": "bearer-token-example-do-not-use",
+    "verify_tls": false
+  }
+}

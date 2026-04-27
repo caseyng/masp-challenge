@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+report.md
+audit_trail.jsonl

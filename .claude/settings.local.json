@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python -c \"from llm_client import LLMClient; print\\('llm_client import ok'\\)\")",
+      "Bash(python *)",
+      "Bash(pip install *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(echo \"exit code: $?\")",
+      "Bash(env)",
+      "Bash(git -C /root/challenge status)",
+      "Bash(git *)"
+    ]
+  }
+}
